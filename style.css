@@ -1,0 +1,52 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 30px;
+}
+
+.container
+{
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.form
+{
+    display: grid;
+    gap: 10px;
+}
+
+input
+{
+    padding: 10px;
+}
+
+button
+{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.controls
+{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.book
+{
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin: 10px 0;
+}
